@@ -6,7 +6,7 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 
-/**
+/**z
  * Created by Liyanshun on 2016/7/18.
  */
 public class TestAlgorithm189 {

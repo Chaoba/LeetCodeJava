@@ -1,6 +1,8 @@
 package com.mushuichuan;
 
 /**
+ * * Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
+ * <p>
  * Created by Liyanshun on 2016/7/19.
  */
 public class Algorithm189 {

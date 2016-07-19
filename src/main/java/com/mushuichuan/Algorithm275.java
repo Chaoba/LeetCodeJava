@@ -1,6 +1,8 @@
 package com.mushuichuan;
 
 /**
+ *  Follow up for H-Index: What if the citations array is sorted in ascending order? Could you optimize your algorithm?
+ * <p>
  * Created by Liyanshun on 2016/7/19.
  */
 public class Algorithm275 {
