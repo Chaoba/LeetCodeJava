@@ -1,5 +1,7 @@
 package com.mushuichuan;
 
+import com.mushuichuan.beans.ListNode;
+
 /**
  * 2. Add Two Numbers  QuestionEditorial Solution  My Submissions
  * Total Accepted: 158939

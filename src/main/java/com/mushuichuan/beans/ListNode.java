@@ -1,4 +1,4 @@
-package com.mushuichuan;
+package com.mushuichuan.beans;
 
 /**
  * Created by Liyanshun on 2016/7/18.

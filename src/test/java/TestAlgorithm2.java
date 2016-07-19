@@ -1,5 +1,5 @@
 import com.mushuichuan.Algorithm2;
-import com.mushuichuan.ListNode;
+import com.mushuichuan.beans.ListNode;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

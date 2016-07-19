@@ -1,4 +1,5 @@
-import com.mushuichuan.ListNode;
+import com.mushuichuan.beans.ListNode;
+import com.mushuichuan.beans.TreeNode;
 
 /**
  * Created by Liyanshun on 2016/7/18.
@@ -48,5 +49,24 @@ public class TestUtils {
             result[i] = Integer.valueOf(nodes[i].trim());
         }
         return result;
+    }
+
+    public static String printTree(TreeNode head) {
+        StringBuilder builder = new StringBuilder();
+        do {
+            builder.append(head.val);
+            if (head.left != null) {
+                builder.append(head.left.val);
+            } else {
+                if (head.right != null) {
+                    builder.append("null");
+                }
+            }
+            if (head.left != null) {
+                builder.append(head.right.val);
+            }
+            head = head.right;
+        } while (head != null);
+        return builder.toString();
     }
 }
