@@ -20,7 +20,7 @@ import java.util.HashMap;
  * Note:
  * You may assume that you have an infinite number of each kind of coin.
  */
-public class Algorithm332 {
+public class Algorithm322 {
 
     public int coinChange(int[] coins, int amount) {
         HashMap<Integer, Integer> map = new HashMap();
