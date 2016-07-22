@@ -69,4 +69,16 @@ public class TestUtils {
         } while (head != null);
         return builder.toString();
     }
+
+    public static char[][] createCharArray(String[] input) {
+        if (input == null || input.length == 0) {
+            return null;
+        }
+
+        char[][] result = new char[input.length][input[0].length()];
+        for (int i = 0; i < input.length; i++) {
+            result[i] = input[i].toCharArray();
+        }
+        return result;
+    }
 }
