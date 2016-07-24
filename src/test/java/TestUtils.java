@@ -1,6 +1,9 @@
 import com.mushuichuan.beans.ListNode;
 import com.mushuichuan.beans.TreeNode;
 
+import java.util.Queue;
+import java.util.concurrent.LinkedBlockingQueue;
+
 /**
  * Created by Liyanshun on 2016/7/18.
  */
@@ -49,6 +52,31 @@ public class TestUtils {
             result[i] = Integer.valueOf(nodes[i].trim());
         }
         return result;
+    }
+
+    public static TreeNode createTree(String input) {
+        if (input == null || input.length() < 3) {
+            return null;
+        }
+        Queue<TreeNode> queue = new LinkedBlockingQueue();
+        String temp = input.substring(1, input.length() - 1);
+        String[] nodes = temp.split(",");
+        TreeNode root = new TreeNode(Integer.valueOf(nodes[0]));
+        queue.add(root);
+        for (int i = 1; i < nodes.length; i = i + 2) {
+            TreeNode tempNode = queue.poll();
+            if (tempNode != null) {
+                if (i < nodes.length && !"null".equals(nodes[i])) {
+                    tempNode.left = new TreeNode(Integer.valueOf(nodes[i]));
+                    queue.add(tempNode.left);
+                }
+                if (i + 1 < nodes.length && !"null".equals(nodes[i + 1])) {
+                    tempNode.right = new TreeNode(Integer.valueOf(nodes[i + 1]));
+                    queue.add(tempNode.right);
+                }
+            }
+        }
+        return root;
     }
 
     public static String printTree(TreeNode head) {
