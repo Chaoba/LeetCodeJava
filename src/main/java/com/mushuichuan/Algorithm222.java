@@ -2,12 +2,6 @@ package com.mushuichuan;
 
 import com.mushuichuan.beans.TreeNode;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.LinkedBlockingDeque;
-import java.util.concurrent.LinkedTransferQueue;
-
 /**
  * 222. Count Complete Tree Nodes  QuestionEditorial Solution  My Submissions
  * Total Accepted: 38381
