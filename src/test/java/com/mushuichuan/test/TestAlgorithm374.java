@@ -1,3 +1,5 @@
+package com.mushuichuan.test;
+
 import com.mushuichuan.Algorithm374;
 import org.junit.Test;
 

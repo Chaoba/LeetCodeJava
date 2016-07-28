@@ -1,3 +1,5 @@
+package com.mushuichuan.test;
+
 import com.mushuichuan.Algorithm2;
 import com.mushuichuan.beans.ListNode;
 import org.junit.Test;

@@ -1,3 +1,5 @@
+package com.mushuichuan.test;
+
 import com.mushuichuan.Algorithm222;
 import com.mushuichuan.beans.TreeNode;
 import org.junit.Test;

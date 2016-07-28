@@ -1,3 +1,5 @@
+package com.mushuichuan.test;
+
 import com.mushuichuan.HeapSort;
 import org.junit.Test;
 

@@ -1,3 +1,5 @@
+package com.mushuichuan.test;
+
 import com.mushuichuan.beans.ListNode;
 import com.mushuichuan.beans.TreeNode;
 

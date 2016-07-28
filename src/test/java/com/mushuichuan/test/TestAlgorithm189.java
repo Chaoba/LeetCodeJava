@@ -1,5 +1,6 @@
+package com.mushuichuan.test;
+
 import com.mushuichuan.Algorithm189;
-import com.mushuichuan.Algorithm4;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
