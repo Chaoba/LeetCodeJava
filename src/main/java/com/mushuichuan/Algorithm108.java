@@ -1,3 +1,5 @@
+package com.mushuichuan;
+
 import com.mushuichuan.beans.TreeNode;
 
 /**
