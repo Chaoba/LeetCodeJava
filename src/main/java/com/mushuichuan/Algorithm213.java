@@ -1,7 +1,5 @@
 package com.mushuichuan;
 
-import java.awt.*;
-
 /**
  * 213. House Robber II  QuestionEditorial Solution  My Submissions
  * Total Accepted: 33852
