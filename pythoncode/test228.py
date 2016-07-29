@@ -2,7 +2,7 @@ import unittest
 
 from Algorithm228 import Solution228
 
-class Test334(unittest.TestCase):
+class Test228(unittest.TestCase):
     def test1(self):
         s=Solution228()
         result=s.summaryRanges([0,1,2,4,5,7])
