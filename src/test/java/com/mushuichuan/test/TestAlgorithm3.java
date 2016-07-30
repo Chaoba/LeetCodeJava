@@ -14,28 +14,28 @@ public class TestAlgorithm3 {
     public void test1() {
         String source = "abcabcbb";
         int solution = new Algorithm3().lengthOfLongestSubstring(source);
-        assertEquals(3,solution);
+        assertEquals(3, solution);
     }
 
     @Test
     public void test2() {
         String source = "bbbbb";
         int solution = new Algorithm3().lengthOfLongestSubstring(source);
-        assertEquals(1,solution);
+        assertEquals(1, solution);
     }
 
     @Test
     public void test3() {
         String source = "pwwkew";
         int solution = new Algorithm3().lengthOfLongestSubstring(source);
-        assertEquals(3,solution);
+        assertEquals(3, solution);
     }
 
     @Test
     public void test4() {
         String source = "au";
         int solution = new Algorithm3().lengthOfLongestSubstring(source);
-        assertEquals(2,solution);
+        assertEquals(2, solution);
     }
 
     @Test

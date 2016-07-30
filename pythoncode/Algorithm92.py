@@ -17,6 +17,7 @@ Given m, n satisfy the following condition:
 """
 from ListNode import ListNode
 
+
 class Solution:
     def reverseBetween(self, head, m, n):
         """
@@ -25,29 +26,36 @@ class Solution:
         :type n: int
         :rtype: ListNode
         """
-        if head.next is None:
+        if head is None or head.next is None:
             return head
-        sec_head=head
-        while m>2:
-            sec_head=sec_head.next
-            m=m-1
-            n=n-1
-        # todo: need improvement
-        if sec_head.next is not None:
-            p=sec_head.next
+
+
+        if m == 1:
+            p = head
+            index = 0
+        else:
+            index = 1
+            i = head
+            while index < m - 1:
+                index = index + 1
+                i = i.next
+            p = i.next
         if p is not None:
-            q=p.next
+            q = p.next
         if q is not None:
-            r=q.next
+            r = q.next
 
-        while q is not None and n>2:
-            n=n-1
-            q.next=p
-            p=q
-            q=r
+        j = p;
+        while q is not None and index < n - 1:
+            index = index + 1
+            q.next = p
+            p = q
+            q = r
             if r is not None:
-                r=r.next
-        sec_head.next.next=q
-        sec_head.next=p
+                r = r.next
+        j.next = q
+        if m != 1:
+            i.next = p
+        else:
+            head = p
         return head
-
