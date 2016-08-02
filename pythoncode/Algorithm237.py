@@ -14,7 +14,7 @@ Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node wi
 #         self.next = None
 
 class Solution(object):
-    def deleteNode(self, node):
+    def deleteNode1(self, node):
         """
         :type node: ListNode
         :rtype: void Do not return anything, modify node in-place instead.
@@ -24,3 +24,13 @@ class Solution(object):
             p=node
             node=node.next
         p.next=None
+
+    def deleteNode(self, node):
+        """
+        :type node: ListNode
+        :rtype: void Do not return anything, modify node in-place instead.
+        """
+
+        node.val=node.next.val
+        node.next=node.next.next
+
