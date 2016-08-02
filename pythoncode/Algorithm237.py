@@ -7,6 +7,8 @@ Write a function to delete a node (except the tail) in a singly linked list, giv
 
 Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node with value 3, the linked list should become 1 -> 2 -> 4 after calling your function.
 """
+
+
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -20,10 +22,10 @@ class Solution(object):
         :rtype: void Do not return anything, modify node in-place instead.
         """
         while node.next is not None:
-            node.val=node.next.val
-            p=node
-            node=node.next
-        p.next=None
+            node.val = node.next.val
+            p = node
+            node = node.next
+        p.next = None
 
     def deleteNode(self, node):
         """
@@ -31,6 +33,5 @@ class Solution(object):
         :rtype: void Do not return anything, modify node in-place instead.
         """
 
-        node.val=node.next.val
-        node.next=node.next.next
-
+        node.val = node.next.val
+        node.next = node.next.next
