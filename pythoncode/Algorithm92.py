@@ -29,8 +29,7 @@ class Solution:
         if head is None or head.next is None:
             return head
 
-
-        if m == 1:
+        if 1 == m:
             p = head
             index = 0
         else:
