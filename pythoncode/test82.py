@@ -4,7 +4,7 @@ from Algorithm82 import Solution
 from testUtil import TestUtil
 
 
-class Test92(unittest.TestCase):
+class Test82(unittest.TestCase):
     def test1(self):
         util = TestUtil()
         list = util.creatList([0, 1, 2, 2, 3, 4])
