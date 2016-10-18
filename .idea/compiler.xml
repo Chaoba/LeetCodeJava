@@ -19,6 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="LeetCode_main" target="1.8" />
+      <module name="LeetCode_test" target="1.8" />
       <module name="Test_main" target="1.8" />
       <module name="Test_test" target="1.8" />
     </bytecodeTargetLevel>

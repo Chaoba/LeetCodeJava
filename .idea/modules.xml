@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Test_main.iml" group="Test" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Test_test.iml" group="Test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LeetCode.iml" filepath="$PROJECT_DIR$/.idea/modules/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LeetCode_main.iml" filepath="$PROJECT_DIR$/.idea/modules/LeetCode_main.iml" group="LeetCode" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LeetCode_test.iml" filepath="$PROJECT_DIR$/.idea/modules/LeetCode_test.iml" group="LeetCode" />
     </modules>
   </component>
 </project>
